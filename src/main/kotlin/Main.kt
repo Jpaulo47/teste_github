@@ -1,6 +1,6 @@
 
 fun main() {
-    val minhaConta = Conta(123, "Fulano de Tal", 2000.0, 500.0)
+    val minhaConta = Conta(123, "Fulano de Tall", 2000.0, 500.0)
     minhaConta.depositar(500.0)
     minhaConta.sacar(1500.0)
     println("Saldo da conta: R$${minhaConta.saldo}")
